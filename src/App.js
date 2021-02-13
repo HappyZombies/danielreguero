@@ -15,19 +15,19 @@ function App() {
         <nav className="App-menu">
           <ul>
             <li className="App-link">
-              <Link to="/projects">projects</Link>
+              <Link to={`${process.env.PUBLIC_URL}/projects`}>projects</Link>
             </li>
             {/* <li className="App-link">
                 <Link to='/bugs'>bug hunts</Link>
               </li> */}
             <li className="App-link">
-              <Link to="/blogs">blog</Link>
+              <Link to={`${process.env.PUBLIC_URL}/blogs`}>blog</Link>
             </li>
             {/* <li className="App-link">
                 <Link to='/ketorecipes'>keto recipes</Link>
               </li> */}
             <li className="App-link">
-              <Link to="/about">about</Link>
+              <Link to={`${process.env.PUBLIC_URL}/about`}>about</Link>
             </li>
           </ul>
         </nav>

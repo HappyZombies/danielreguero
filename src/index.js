@@ -18,6 +18,8 @@ import Nav from "./Nav";
 import reportWebVitals from "./reportWebVitals";
 import store from "./store";
 
+console.log(process.env.PUBLIC_URL);
+
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>

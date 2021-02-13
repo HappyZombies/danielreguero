@@ -5,6 +5,7 @@ import "../App.css";
 
 function DisplayList({ type, title, updateLink }) {
   updateLink(process.env.PUBLIC_URL);
+  console.log(process.env.PUBLIC_URL);
   const posts = require(`../posts/${type}/${type}.json`);
   return (
     <div className="App">
@@ -13,7 +14,7 @@ function DisplayList({ type, title, updateLink }) {
         <ul id="wall">
           {posts.map((post, i) => (
             <li key={i}>
-              <Link to={`/${type}/${post.date}`}>
+              <Link to={`${process.env.PUBLIC_URL}/${type}/${post.date}`}>
                 {post.date}&nbsp;{post.title}
               </Link>
               &nbsp;-&nbsp;&#91;{post.category}&#93;&nbsp;

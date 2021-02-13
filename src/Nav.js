@@ -6,8 +6,8 @@ function Nav({ children, link }) {
   return (
     <>
       <nav id="App-nav-menu">
-        {link !== "/" ? (
-          <Link to="/">
+        {link !== process.env.PUBLIC_URL ? (
+          <Link to={process.env.PUBLIC_URL}>
             &lt;-<i>Home</i>
           </Link>
         ) : null}

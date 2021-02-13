@@ -1,11 +1,10 @@
 import { createStore, combineReducers } from "redux";
 
 const defaultLinkState = {
-  link: "/",
+  link: process.env.PUBLIC_URL,
 };
 
 const link = (state = defaultLinkState, action) => {
-  console.log(action);
   if (action.type === "UPDATE_LINK") {
     return { link: action.payload.link };
   }
