@@ -4,7 +4,7 @@ import { updateLink } from "../linkaction";
 import "../App.css";
 
 function DisplayList({ type, title, updateLink }) {
-  updateLink("/");
+  updateLink(process.env.PUBLIC_URL);
   const posts = require(`../posts/${type}/${type}.json`);
   return (
     <div className="App">

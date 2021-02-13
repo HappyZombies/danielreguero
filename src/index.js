@@ -23,15 +23,35 @@ ReactDOM.render(
     <Provider store={store}>
       <Router>
         <Switch>
-          <Route exact path="/" component={App} />
+          <Route exact path={process.env.PUBLIC_URL} component={App} />
           <Nav>
-            <Route exact path="/about" component={About} />
-            <Route exact path="/blogs" component={Blogs} />
-            <Route exact path="/blogs/:id" component={Blog} />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/about`}
+              component={About}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/blogs`}
+              component={Blogs}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/blogs/:id`}
+              component={Blog}
+            />
             {/* <Route exact path='/bugs' component={BugHunts} />
           <Route exact path='/bugs/:id' component={BugHunt} /> */}
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/projects/:id" component={Project} />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/projects`}
+              component={Projects}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/projects/:id`}
+              component={Project}
+            />
             {/* <Route exact path='/ketorecipes' component={KetoRecipes} />
           <Route exact path='/ketorecipes/:id' component={KetoRecipe} /> */}
           </Nav>

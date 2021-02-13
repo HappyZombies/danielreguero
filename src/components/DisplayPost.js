@@ -18,7 +18,7 @@ const DateHeader = ({ date }) => {
 class DisplayPost extends Component {
   constructor(props) {
     super(props);
-    props.updateLink(`/${props.type}`);
+    props.updateLink(`${process.env.PUBLIC_URL}/${props.type}`);
   }
   state = {
     content: null,
