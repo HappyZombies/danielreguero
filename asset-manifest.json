@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/danielreguero/static/css/main.937f596d.chunk.css",
+    "main.js": "/danielreguero/static/js/main.df2a96ff.chunk.js",
+    "main.js.map": "/danielreguero/static/js/main.df2a96ff.chunk.js.map",
+    "runtime-main.js": "/danielreguero/static/js/runtime-main.493e94b2.js",
+    "runtime-main.js.map": "/danielreguero/static/js/runtime-main.493e94b2.js.map",
+    "static/js/2.65c12a9d.chunk.js": "/danielreguero/static/js/2.65c12a9d.chunk.js",
+    "static/js/2.65c12a9d.chunk.js.map": "/danielreguero/static/js/2.65c12a9d.chunk.js.map",
+    "static/js/3.29e1469a.chunk.js": "/danielreguero/static/js/3.29e1469a.chunk.js",
+    "static/js/3.29e1469a.chunk.js.map": "/danielreguero/static/js/3.29e1469a.chunk.js.map",
+    "index.html": "/danielreguero/index.html",
+    "static/css/main.937f596d.chunk.css.map": "/danielreguero/static/css/main.937f596d.chunk.css.map",
+    "static/js/2.65c12a9d.chunk.js.LICENSE.txt": "/danielreguero/static/js/2.65c12a9d.chunk.js.LICENSE.txt",
+    "static/media/1-28-2021.md": "/danielreguero/static/media/1-28-2021.e96c05ec.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.493e94b2.js",
+    "static/js/2.65c12a9d.chunk.js",
+    "static/css/main.937f596d.chunk.css",
+    "static/js/main.df2a96ff.chunk.js"
+  ]
+}
